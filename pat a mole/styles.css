@@ -1,0 +1,30 @@
+.container {
+  display: grid;
+  grid-template-columns: 650px 300px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 606px;
+  height: 606px;
+  float: left;
+}
+
+.info {
+  text-align: center;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  border: solid black 1px;
+}
+
+.mole {
+  background-image: url("mole.png");
+}
+
+.pat {
+  background-image: url('mole-pet.png');
+}
